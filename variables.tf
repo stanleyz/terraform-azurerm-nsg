@@ -7,6 +7,7 @@ variable "location" {
 variable "location_short" {
   description = "Short string for Azure location."
   type        = string
+  default     = "weu"
 }
 
 variable "environment" {
