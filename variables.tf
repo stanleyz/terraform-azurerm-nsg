@@ -43,5 +43,5 @@ variable "custom_network_security_group_name" {
 variable "extra_tags" {
   description = "Additional tags to associate with your Network Security Group."
   type        = map(string)
-  default     = {}
+  default     = []
 }
