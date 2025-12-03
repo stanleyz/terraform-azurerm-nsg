@@ -1,6 +1,7 @@
 variable "location" {
   description = "Azure location."
   type        = string
+  default     = "westeurope"
 }
 
 variable "location_short" {
