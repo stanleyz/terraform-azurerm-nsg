@@ -26,6 +26,7 @@ variable "resource_group_name" {
 variable "client_name" {
   description = "Client name/account used in naming"
   type        = string
+  deafult     = ""
 }
 
 variable "name_prefix" {
