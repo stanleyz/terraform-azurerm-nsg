@@ -9,4 +9,3 @@ locals {
     stack = var.stack
   }
 }
-
