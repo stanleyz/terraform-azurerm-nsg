@@ -13,6 +13,7 @@ variable "location_short" {
 variable "environment" {
   description = "Project environment"
   type        = string
+  default     = "dev"
 }
 
 variable "stack" {
